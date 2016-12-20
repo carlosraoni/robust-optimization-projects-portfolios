@@ -1,0 +1,615 @@
+{
+ "reportDate": "2016-07-25", 
+ "startDate": "2016-07-25", 
+ "name": "PSPLibProject", 
+ "listRisk": [
+  {
+   "name": "Risk-psplib_j1257_10.mm_R0", 
+   "probability": 0.08, 
+   "impactedActivitiesIds": [
+    "psplib_j1257_10.mm_10", 
+    "psplib_j1257_10.mm_5", 
+    "psplib_j1257_10.mm_7"
+   ], 
+   "mitigationPlans": [
+    {
+     "effectivenessLevels": [
+      {
+       "costFactors": [
+        12, 
+        6, 
+        7
+       ], 
+       "probability": 1.0, 
+       "durationFactors": [
+        6, 
+        4, 
+        6
+       ]
+      }
+     ], 
+     "riskProbabilityAfterMitigation": 0.01, 
+     "cost": 8, 
+     "id": "M0_psplib_j1257_10.mm_R0", 
+     "name": "Mitigation 0 for Risk-psplib_j1257_10.mm_R0 - Id = M0_psplib_j1257_10.mm_R0"
+    }
+   ], 
+   "id": "psplib_j1257_10.mm_R0", 
+   "impactLevels": [
+    {
+     "costFactors": [
+      18, 
+      9, 
+      11
+     ], 
+     "probability": 1.0, 
+     "durationFactors": [
+      9, 
+      6, 
+      9
+     ]
+    }
+   ]
+  }, 
+  {
+   "name": "Risk-psplib_j1257_10.mm_R1", 
+   "probability": 0.35, 
+   "impactedActivitiesIds": [
+    "psplib_j1257_10.mm_4", 
+    "psplib_j1257_10.mm_6", 
+    "psplib_j1257_10.mm_7"
+   ], 
+   "mitigationPlans": [
+    {
+     "effectivenessLevels": [
+      {
+       "costFactors": [
+        0, 
+        0, 
+        0
+       ], 
+       "probability": 1.0, 
+       "durationFactors": [
+        0, 
+        0, 
+        0
+       ]
+      }
+     ], 
+     "riskProbabilityAfterMitigation": 0.24, 
+     "cost": 10, 
+     "id": "M0_psplib_j1257_10.mm_R1", 
+     "name": "Mitigation 0 for Risk-psplib_j1257_10.mm_R1 - Id = M0_psplib_j1257_10.mm_R1"
+    }
+   ], 
+   "id": "psplib_j1257_10.mm_R1", 
+   "impactLevels": [
+    {
+     "costFactors": [
+      2, 
+      3, 
+      6
+     ], 
+     "probability": 1.0, 
+     "durationFactors": [
+      1, 
+      1, 
+      2
+     ]
+    }
+   ]
+  }, 
+  {
+   "name": "Risk-psplib_j1257_10.mm_R2", 
+   "probability": 0.34, 
+   "impactedActivitiesIds": [
+    "psplib_j1257_10.mm_11", 
+    "psplib_j1257_10.mm_4", 
+    "psplib_j1257_10.mm_3"
+   ], 
+   "mitigationPlans": [
+    {
+     "effectivenessLevels": [
+      {
+       "costFactors": [
+        1, 
+        2, 
+        1
+       ], 
+       "probability": 1.0, 
+       "durationFactors": [
+        1, 
+        1, 
+        0
+       ]
+      }
+     ], 
+     "riskProbabilityAfterMitigation": 0.03, 
+     "cost": 67, 
+     "id": "M0_psplib_j1257_10.mm_R2", 
+     "name": "Mitigation 0 for Risk-psplib_j1257_10.mm_R2 - Id = M0_psplib_j1257_10.mm_R2"
+    }
+   ], 
+   "id": "psplib_j1257_10.mm_R2", 
+   "impactLevels": [
+    {
+     "costFactors": [
+      16, 
+      27, 
+      13
+     ], 
+     "probability": 1.0, 
+     "durationFactors": [
+      10, 
+      10, 
+      8
+     ]
+    }
+   ]
+  }
+ ], 
+ "organizationId": 1, 
+ "listPrecedence": [
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_1", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_2"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_1", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_3"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_1", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_4"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_2", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_5"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_2", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_7"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_2", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_13"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_3", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_6"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_3", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_8"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_3", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_10"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_4", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_5"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_4", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_6"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_4", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_8"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_5", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_12"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_6", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_9"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_6", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_11"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_6", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_13"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_7", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_8"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_7", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_10"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_8", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_9"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_8", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_11"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_9", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_12"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_10", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_11"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_10", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_12"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_11", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_14"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_12", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_14"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "lag": 0.0, 
+   "precedenceType": "Finish to Start", 
+   "actPredecessorExternalId": "psplib_j1257_10.mm_13", 
+   "actSucessorExternalId": "psplib_j1257_10.mm_14"
+  }
+ ], 
+ "laterPercentComplete": 0.0, 
+ "earlierPercentComplete": 0.0, 
+ "externalId": "psplib_j1257_10.mm", 
+ "listCalendar": [
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "listWorkException": [], 
+   "name": "Standard", 
+   "calendarType": "Global", 
+   "externalId": "psplib_j1257_10.mm_0", 
+   "listStandardWorkWeekDay": [
+    {
+     "listWorkTime": [], 
+     "weekDay": "Monday"
+    }, 
+    {
+     "listWorkTime": [], 
+     "weekDay": "Tuesday"
+    }, 
+    {
+     "listWorkTime": [], 
+     "weekDay": "Friday"
+    }, 
+    {
+     "listWorkTime": [], 
+     "weekDay": "Wednesday"
+    }, 
+    {
+     "listWorkTime": [], 
+     "weekDay": "Thursday"
+    }, 
+    {
+     "listWorkTime": [], 
+     "weekDay": "Sunday"
+    }, 
+    {
+     "listWorkTime": [], 
+     "weekDay": "Saturday"
+    }
+   ]
+  }
+ ], 
+ "listPenalty": [
+  {
+   "fixedCost": 0.0, 
+   "name": "Final_Penalty_psplib_j1257_10.mm", 
+   "id": "FP_psplib_j1257_10.mm", 
+   "activityId": "psplib_j1257_10.mm_14", 
+   "deadline": 37, 
+   "unitCost": 11
+  }
+ ], 
+ "earnedValuePercent": 0.0, 
+ "listActivity": [
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-1", 
+   "activityType": "Start Milestone", 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 0, 
+   "externalId": "psplib_j1257_10.mm_1", 
+   "duration": 0, 
+   "externalCode": "A1"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-2", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 8, 
+     "durationDecrease": 3.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 8, 
+   "externalId": "psplib_j1257_10.mm_2", 
+   "duration": 8, 
+   "externalCode": "A2"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-3", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 7, 
+     "durationDecrease": 2.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 7, 
+   "externalId": "psplib_j1257_10.mm_3", 
+   "duration": 7, 
+   "externalCode": "A3"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-4", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 9, 
+     "durationDecrease": 3.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 9, 
+   "externalId": "psplib_j1257_10.mm_4", 
+   "duration": 9, 
+   "externalCode": "A4"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-5", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 8, 
+     "durationDecrease": 3.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 8, 
+   "externalId": "psplib_j1257_10.mm_5", 
+   "duration": 8, 
+   "externalCode": "A5"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-6", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 10, 
+     "durationDecrease": 2.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 10, 
+   "externalId": "psplib_j1257_10.mm_6", 
+   "duration": 10, 
+   "externalCode": "A6"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-7", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 5, 
+     "durationDecrease": 2.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 5, 
+   "externalId": "psplib_j1257_10.mm_7", 
+   "duration": 5, 
+   "externalCode": "A7"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-8", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 6, 
+     "durationDecrease": 1.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 6, 
+   "externalId": "psplib_j1257_10.mm_8", 
+   "duration": 6, 
+   "externalCode": "A8"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-9", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 8, 
+     "durationDecrease": 2.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 8, 
+   "externalId": "psplib_j1257_10.mm_9", 
+   "duration": 8, 
+   "externalCode": "A9"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-10", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 9, 
+     "durationDecrease": 4.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 9, 
+   "externalId": "psplib_j1257_10.mm_10", 
+   "duration": 9, 
+   "externalCode": "A10"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-11", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 9, 
+     "durationDecrease": 3.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 9, 
+   "externalId": "psplib_j1257_10.mm_11", 
+   "duration": 9, 
+   "externalCode": "A11"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-12", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 10, 
+     "durationDecrease": 3.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 10, 
+   "externalId": "psplib_j1257_10.mm_12", 
+   "duration": 10, 
+   "externalCode": "A12"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-13", 
+   "activityType": "Task Dependent", 
+   "crashingModes": [
+    {
+     "cost": 10, 
+     "durationDecrease": 3.0, 
+     "id": 0
+    }
+   ], 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 10, 
+   "externalId": "psplib_j1257_10.mm_13", 
+   "duration": 10, 
+   "externalCode": "A13"
+  }, 
+  {
+   "externalProjectId": "psplib_j1257_10.mm", 
+   "name": "Activity-14", 
+   "activityType": "Final Milestone", 
+   "externalCalendarId": "psplib_j1257_10.mm_0", 
+   "cost": 0, 
+   "externalId": "psplib_j1257_10.mm_14", 
+   "duration": 0, 
+   "externalCode": "A14"
+  }
+ ]
+}
